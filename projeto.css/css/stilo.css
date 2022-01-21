@@ -1,0 +1,117 @@
+body{
+    font-family: arial, sans-serif;
+    background-color: #ccc;
+    margin: 0;
+}
+
+.cabeçalho{
+    background-image: url(../imagens02/bg-3.jpg);
+    height: 500px;
+    background-position:right center;
+    background-size: cover;
+    border-top: 1px solid transparent;
+    
+}
+
+.cabeçalho nav ul{
+    text-align: right;
+    margin: 50px 70px 0 0;
+}
+
+.cabeçalho nav li {
+    display: inline-block;
+    list-style: none;
+    border: 1px solid white;
+}
+
+.cabeçalho nav a{
+    background: rgba(104, 101, 101, 0.842);
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.cabeçalho nav a:hover{
+
+    background: rgba(71, 70, 70, 0.846);
+
+}
+
+.titulo{
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.titulo h1{
+    text-transform: uppercase;
+    font-size: 46px;
+    text-shadow: 3px 3px 2px #333;
+}
+
+.titulo p{
+    background-color: rgba(0, 0, 0, 0.39);
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 2px solid white;
+
+
+}
+
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+.content-section{
+    background-color: white;
+    padding: 10px;
+    margin-top: 15px;
+    overflow: auto;
+    
+
+}
+
+.card{
+    width: 32%;
+    float: left;
+    box-sizing: border-box;
+    margin-left: 1%;
+    
+}
+
+.card-1,.card-2{
+    margin-right: 2%;
+
+}
+
+
+.card img{
+    width: 100%;
+    display: block;
+}
+
+.card p{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+
+.rodape{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px #333;
+    font-size: 20px;
+    height: 80px;
+    line-height: 80px;
+    background-color: #333;
+}
+
